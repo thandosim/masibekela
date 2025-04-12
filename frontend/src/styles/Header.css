@@ -1,0 +1,29 @@
+.header-container {
+    background-color: #333; /* Dark background */
+    color: white; /* Text color */
+    padding: 20px; /* Add padding for spacing */
+    display: flex; /* Align items horizontally */
+    justify-content: space-between; /* Space between title and nav bar */
+    align-items: center; /* Center vertically */
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
+}
+
+.header-nav {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Align nav items horizontally */
+    gap: 15px; /* Space between nav items */
+}
+
+.header-nav a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.header-nav a:hover {
+    color: #00bfff; /* Change link color on hover */
+}
