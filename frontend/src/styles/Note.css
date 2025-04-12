@@ -1,0 +1,72 @@
+.note-container {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .note-title {
+    color: #333;
+  }
+  
+  .note-content {
+    color: #666;
+  }
+
+  /* Styles for the small preview image */
+.note-image {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: #333;
+  cursor: pointer; /* Indicate it's clickable */
+}
+
+/* Modal overlay */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal content */
+.modal-content {
+  position: relative;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/* Full-size image inside the modal */
+.full-size-image {
+  max-width: 90%; /* Scale image to fit within the modal */
+  max-height: 90%;
+  border-radius: 5px;
+}
+  
+  .note-date {
+    color: #999;
+    font-size: 0.8rem;
+  }
+  
+  .delete-button {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f; /* Darker red */
+  }
