@@ -10,7 +10,7 @@ The web app can be run locally by starting a development server. To do this:
 
 The purpose of this software is to provide an accessible way to manage and navigate various features efficiently while supporting user roles. My main focus was on implementing practical functionality and a clean UI design to enhance user experience.
 
-[Software Demo Video](https://youtu.be/Echd1ecCIAc)
+[Software Demo Video](https://youtu.be/RGN0fdO8nFc)
 
 # Web Pages
 
